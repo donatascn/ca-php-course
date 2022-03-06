@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 /*
 1. Apskaičiuokite PHP pagalba ir išveskite į terminalą. Kiekvienas rezultatas turi būti naujoje eilutėje:
@@ -22,12 +23,12 @@ Kiekvienas skaičius turi išspausdintas naujoje eilutėje.
 */
 
 /*
-3. Išspausdinkite skaičius nuo 15 iki 3 naudodamiesi ciklu. Panaudokite visus 4 būdus ciklams aprašyti.
+3. Išspausdinkite skaičius nuo 15 iki 3 naudodamiesi ciklu. Panaudokite sau patogiausią ciklą.
 Kiekvienas skaičius turi išspausdintas naujoje eilutėje. 
 */
 
 /*
-4. Išspausdinkite kas antrą skaičių nuo 1 iki 20 naudodamiesi ciklu. Panaudokite visus 4 būdus ciklams aprašyti
+4. Išspausdinkite kas antrą skaičių nuo 1 iki 20 naudodamiesi ciklu.
 Kiekvienas skaičius turi išspausdintas naujoje eilutėje.
 
 1
@@ -57,7 +58,7 @@ Viskas turi būti atspausdinti vienoje eilutėje su tarpais:
 */
 
 /*
-8. Raskite sveikų skaičių nuo 1 iki 100 sumą. Hint: Naudokitės ciklais
+8. Raskite sveikų skaičių nuo 1 iki 100 sumą.
 */
 
 /*
@@ -76,7 +77,16 @@ $days = [
 ];
 
 /*
-10. Iteruokite sveikus skaičius nuo 1 iki 10.
-Lyginius skaičius paverskite į string tipo reikšmė ir išspausdinkite reikšmę, bei tipą (var_dump).
-Nelyginius skaičius paverskite į bool tipo reikšmė ir išspausdinkite reikšmę, bei tipą (var_dump).
+10. Iteruokite sveikus skaičius nuo -5 iki 5.
+Išspausdinkite skaičių dvejopai:
+1. Pasinaudojant paprastu echo
+2. Pasinaudojant funkcija var_dump ir prieš tai pavertus į 'bool' tipo reikšmę
+
+-5
+bool(true)
+-4
+bool(true)
+...
+
+HINT: atkreipkite dėmesį į ką pavirsta skaičius 0
 */

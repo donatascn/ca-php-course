@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 /*
 1.
@@ -29,32 +30,29 @@ Jeigu ne, pakeiskite terminalo direktoriją, kad sutaptų su atidaryta kodo edit
 
 
 /*
-2. Paleiskite šį failą komandinės eilutės pagalba. Turėtumėte terminale matyti teksta 'Hello'
+2. Paleiskite šį failą komandinės eilutės pagalba. Turėtumėte terminale matyti tekstą 'Hello'.
 */
 echo 'Hello';
 echo PHP_EOL;
 
 /*
-2. Šioje užduotyje reikės pašalinti klaidą.
-Šioje direktorijoje sukurkite dar vieną PHP failą pavadinimu file_to_load.php
-Jame deklaruokite kintamąjį $fromAnotherFile, kurio reikšmė - 'Greetings from another file'
+3. Šioje direktorijoje sukurkite dar vieną PHP failą pavadinimu file_to_load.php.
+Jame pridėkite eilutę, kuri spausdintų tekstą 'Greetings from another file'.
 
-Nutrinkite komentarą nuo žemiau esančios eilutės ir paleiskite exercises.php script'ą per CLI.
-Turėtumėte gauti klaidą. Sutvarkykite ją.
+Paleidus failą 'exercises.php' per CLI, turėtų išspausdinti faile 'file_to_load.php' esantį tekstą.
 */
-echo $fromAnotherFile;
 
 /*
-3. Pridėkite kodo eilutę, kuri sustabdytų šio scripto vykdymą. Patikrinkite, ar sustabdymas veikia,
-nuėmę komentarą nuo eilutės nr. 54 . Paleidus kodą, atkomentuotos eilutės neturėtų matytis
+4. Pridėkite kodo eilutę, kuri sustabdytų šio scripto vykdymą. Patikrinkite, ar sustabdymas veikia,
+nuėmę komentarą (//) nuo eilutės nr. 54 . Paleidus kodą, atkomentuotos eilutės neturėtų matytis
 */
-// jūsų kodas, sustabdantis programos vykdyma:
+// jūsų kodas, sustabdantis programos vykdymą:
 
 
 // echo 'You should not be seeing this line printed';
 
 /*
-4. Pašalinkite/užkomentuokite praeitos užduoties eilutes, kad jos netrukdytų toliau tęsti darbo.
+5. Pašalinkite/užkomentuokite praeitos užduoties eilutes, kad jos netrukdytų toliau tęsti darbo.
 Išveskite į terminalą kintamojo $variableToDebug:
 - tik reikšmę
 - reikšmę kartu su duomens tipu

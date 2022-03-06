@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 // Visur sudėkite reikiamus parametrų bei return tipus
 
