@@ -12,10 +12,10 @@ declare(strict_types=1);
 išspausdintų kiekvieną masyvo elementą naujoje eilutėje.
 
 Funkcijos kvietimas: arrayPrinter(['some text', 'another text'])
-Funkcija grąžina: funkcija nieko negrąžina - ji tik išspausdina masyvą į terminalą
+Funkcija grąžina: funkcija nieko negrąžina - ji tik išspausdina masyvą į terminalą:
 'some text'
 'another text'
-
+...
 */
 
 /*
@@ -29,7 +29,7 @@ Funkcija grąžina: '**some text**'
 */
 
 /*
-4. Parašykite funkciją 'stringModifier', kuri pakeistų paduotą string tipo kintamąjį. 
+4. Parašykite funkciją 'stringModifier', kuri pamodifikuotų paduotą string tipo kintamąjį. 
 
 Funkcijos kvietimas: 
 $x = 'some text';
