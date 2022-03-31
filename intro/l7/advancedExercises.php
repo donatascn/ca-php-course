@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 function exercise1(string $stringToSplit, array $delimiters): array
