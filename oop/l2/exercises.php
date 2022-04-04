@@ -30,6 +30,12 @@ class BankAccount
             return;
         }
 
+        if ($amount <= 0) {
+            echo 'Can only spend a positive amount';
+
+            return;
+        }
+
         $this->balance = $this->balance - $amount;
     }
 
@@ -40,8 +46,6 @@ class BankAccount
         if ($amount > 0) {
             $this->balance = $this->balance + $amount;
         }
-
-        return $this;
     }
 
     protected function applyFees(int $amount)
@@ -54,9 +58,11 @@ class BankAccount
 Sukurkite papildomas klases, kurios paveldėtų klasę BankAccount:
 - klasė StudentAccount - Ši klasė turi netaikyti jokių mokesčių depozitams.
 - klasė ChildAccount - Ši klasė neturi leisti per vieną kartą išleisti daugiau nei 10eur.
-- klasė CreditAccount - Ši klasė neturi turi leisti balansui nukristi iki -X sumos ($maxCreditAmount).
-T.y. balansas gali buti neigiamas
+- klasė CreditAccount - Ši klasė turi leisti balansui nukristi iki -X sumos ($maxCreditAmount).
+T.y. balansas gali buti neigiamas. $maxCreditAmount yra teigiama integer tipo reikšmė.
+Jeigu $maxCreditAmount yra 100, tai reiškia, kad balansas negali kristi žemiau -100.
 Ši suma ($maxCreditAmount) turi būti paduodama per konstruktorių.
+Šiai užduočiai reiktų pakeisti $balance savybės matomumą į protected.
 - klasė SavingsAccount. Ši klasė turi suteikti galimybę padidinti sąskaitos depozitą tam tikru procentu.
 T.y. - ji gali turėti public metodą addInterest, kurį iškvietus su X procentu, depozitas padidėtų X procentų
 Įsivaizduokite, kad šis metodas būtų kviečiamas kas metus ir sąskaita tokiu būdu augtų.
