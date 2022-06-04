@@ -1,3 +1,7 @@
+<?php
+
+declare(strict_types=1);
+
 /*
 1. Apskaičiuokite PHP pagalba ir išveskite į terminalą. Kiekvienas rezultatas turi būti naujoje eilutėje:
 

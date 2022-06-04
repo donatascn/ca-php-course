@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 class BankAccount
 {
-    private int $balance;
+    protected int $balance;
 
     public function __construct(int $balance)
     {
@@ -22,7 +22,7 @@ class BankAccount
         return $this->balance;
     }
 
-    public function spend(int $amount)
+    public function spend(int $amount): void
     {
         if ($amount > $this->balance) {
             echo 'Cannot spend more than you have';
@@ -39,7 +39,7 @@ class BankAccount
         $this->balance = $this->balance - $amount;
     }
 
-    public function deposit(int $amount)
+    public function deposit(int $amount): void
     {
         $amount = $this->applyFees($amount);
 
@@ -48,22 +48,29 @@ class BankAccount
         }
     }
 
-    protected function applyFees(int $amount)
+    protected function applyFees(int $amount): int
     {
-        return round($amount - $amount * 0.01);
+        return (int) round($amount - $amount * 0.01);
     }
 }
 
 /*
-Sukurkite papildomas klases, kurios paveldėtų klasę BankAccount:
+Sukurkite išvestines klases, kurios paveldėtų klasę BankAccount:
 - klasė StudentAccount - Ši klasė turi netaikyti jokių mokesčių depozitams.
+
 - klasė ChildAccount - Ši klasė neturi leisti per vieną kartą išleisti daugiau nei 10eur.
+
 - klasė CreditAccount - Ši klasė turi leisti balansui nukristi iki -X sumos ($maxCreditAmount).
 T.y. balansas gali buti neigiamas. $maxCreditAmount yra teigiama integer tipo reikšmė.
 Jeigu $maxCreditAmount yra 100, tai reiškia, kad balansas negali kristi žemiau -100.
 Ši suma ($maxCreditAmount) turi būti paduodama per konstruktorių.
-Šiai užduočiai reiktų pakeisti $balance savybės matomumą į protected.
+Dėmesio - šiai užduočiai reiktų pakeisti BankAccount::balance savybės matomumą į protected -
+tuomet galėsite naudoti šią savybę išvestinėse klasėse.
+
 - klasė SavingsAccount. Ši klasė turi suteikti galimybę padidinti sąskaitos depozitą tam tikru procentu.
 T.y. - ji gali turėti public metodą addInterest, kurį iškvietus su X procentu, depozitas padidėtų X procentų
 Įsivaizduokite, kad šis metodas būtų kviečiamas kas metus ir sąskaita tokiu būdu augtų.
+Dėmesio - šiai užduočiai reiktų pakeisti BankAccount::balance savybės matomumą į protected -
+tuomet galėsite naudoti šią savybę išvestinėse klasėse.
+
 */

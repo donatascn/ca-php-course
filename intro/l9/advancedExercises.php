@@ -1,3 +1,7 @@
+<?php
+
+declare(strict_types=1);
+
 /*
 Exercise 1
 

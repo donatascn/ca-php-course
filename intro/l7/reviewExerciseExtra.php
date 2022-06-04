@@ -1,3 +1,8 @@
+<?php
+
+declare(strict_types=1);
+
+/*
 We have a shop. This shop's inventory is an array:
 
 $inventory = [
@@ -174,3 +179,4 @@ Expected input: php -f 7_shoping_basket.php total category bread
 Expected output:
 Total count: 258
 Total cost: 173.45
+*/
