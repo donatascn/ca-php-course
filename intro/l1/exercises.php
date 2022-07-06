@@ -3,28 +3,28 @@ declare(strict_types=1);
 
 /*
 1.
-- Patogioje vietoje susikurkite katalogą, kuriame talpinsite šios kurso dalies failus​
+- Patogioje vietoje susikurkite katalogą, kuriame talpinsite šios kurso dalies failus
 
-- Atsidarykite jį su kodo editoriumi​
+- Atsidarykite jį su kodo editoriumi
 
 - Kodo editoriaus failų naršyklėje susikurkite subdirektoriją 'test' bei failą joje - 'test.txt'.
-Faile parašykite tekstą 'Hello world' ir išsaugokite​
+Faile parašykite tekstą 'Hello world' ir išsaugokite
 
-- Atsidarykite į kodo editorių integruotą terminalą - naudokite Git Bash​ (jeigu naudojate VS Code)
+- Atsidarykite į kodo editorių integruotą terminalą - naudokite Git Bash (jeigu naudojate VS Code)
 
-- Pasitikrinkite, kurioje direktorijoje veikia terminalas. 
-Ar tai ta pati direktorija, kuri atidaryta kodo editoriuje?​
+- Pasitikrinkite, kurioje direktorijoje veikia terminalas.
+Ar tai ta pati direktorija, kuri atidaryta kodo editoriuje?
 Jeigu ne, pakeiskite terminalo direktoriją, kad sutaptų su atidaryta kodo editoriuje.
 
-- Komandinėje eilutėje pereikite į savo sukurtą subdirektoriją 'test'​
+- Komandinėje eilutėje pereikite į savo sukurtą subdirektoriją 'test'
 
-- Ten paleiskite komandą, kuri išspausdina direktorijos turinį. Ar matote ten savo sukurto failo pavadinimą?​
+- Ten paleiskite komandą, kuri išspausdina direktorijos turinį. Ar matote ten savo sukurto failo pavadinimą?
 
-- Terminale išspausdinkite failo turinį - turėtu rodyti "Hello world"​
+- Terminale išspausdinkite failo turinį - turėtu rodyti "Hello world"
 
 - Terminale grįžkite į pradinę direktoriją
 
-- Ištrinkite subdirektoriją 'test'​
+- Ištrinkite subdirektoriją 'test'
 
 */
 
