@@ -21,3 +21,16 @@ $part3 = 'called';
 $part4 = 'string';
 $part5 = 'concatenation';
 */
+
+/*
+3. Jūs turite parašyti sąlygą, pagal kurią bus taikoma nuolaida produktų kategorijoms.
+Parašykite sąlygą, kuri būtų true, kai:
+- produkto kategorija yra 'smartphone' ir kaina yra daugiau arba lygu 1200eur
+ARBA
+- produkto kategorija yra 'washing_machine' ir kaina yra tarp 500eur ir 700eur (įskaitant 500).
+
+Sąlygos rezultatą priskirkite kintamajam $result ir šį kintamąjį išveskite į terminalą pasinaudodami var_dump.
+
+$productCategory = 'smartphone';
+$productPrice = 1200;
+*/
