@@ -31,8 +31,8 @@ ARBA
 
 Sąlygos rezultatą priskirkite kintamajam $result ir šį kintamąjį išveskite į terminalą pasinaudodami var_dump.
 
-$productCategory = 'smartphone';
-$productPrice = 1200;
 define('CATEGORY_SMARTPHONE', 'smartphone');
 define('CATEGORY_WASHING_MACHINE', 'washing_machine');
+$productCategory = CATEGORY_SMARTPHONE;
+$productPrice = 1200;
 */
