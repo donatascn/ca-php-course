@@ -33,4 +33,6 @@ Sąlygos rezultatą priskirkite kintamajam $result ir šį kintamąjį išveskit
 
 $productCategory = 'smartphone';
 $productPrice = 1200;
+define('CATEGORY_SMARTPHONE', 'smartphone');
+define('CATEGORY_WASHING_MACHINE', 'washing_machine');
 */
