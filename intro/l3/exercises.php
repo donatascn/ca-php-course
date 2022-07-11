@@ -113,8 +113,17 @@ Viskas turi būti atspausdinti vienoje eilutėje su tarpais:
 */
 
 /*
+11. Pasinaudodami ciklais, išspausdinkite lentelę, kurioje nelyginiai skaičiai yra žvaigždutės:
 
-11. Pasinaudodami ciklais, išspausdinkite į terminalą šią figūrą:
+* |2 |* |4 |*
+6 |* |8 |* |10
+* |12|* |14|*
+16|* |18|* |20
+*/
+
+/*
+
+12. Pasinaudodami ciklais, išspausdinkite į terminalą šią figūrą:
 *
 **
 ***
@@ -131,3 +140,14 @@ Viskas turi būti atspausdinti vienoje eilutėje su tarpais:
 
 */
 
+/*
+13. Išspausdinkite stačiakampį, kurio matmenys bus kinamųjų reikšmės.
+
+$length = 5;
+$height = 4;
+
+*  *  *  *  *
+*  *  *  *  *
+*  *  *  *  *
+*  *  *  *  *
+*/
