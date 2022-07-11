@@ -112,3 +112,22 @@ Viskas turi būti atspausdinti vienoje eilutėje su tarpais:
 1 2 Hey 4 Ho Hey 7 8 Hey Ho 11 Hey 13 14 HeyHo 16 17 Hey 19 Ho
 */
 
+/*
+
+11. Pasinaudodami ciklais, išspausdinkite į terminalą šią figūrą:
+*
+**
+***
+****
+*****
+******
+*******
+******
+*****
+****
+***
+**
+*
+
+*/
+
