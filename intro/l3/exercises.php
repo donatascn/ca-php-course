@@ -171,3 +171,15 @@ $height = 4;
 12: 1 2 3 4 6
 ...
  */
+
+/*
+15. Išspausdinkite šią struktūrą. Kiiekvienas skaičius yra dviejų virš jo esančių skaičių suma. Rašykite tokį kodą,
+kuris leistų nesunkiai spausdinti daugiau eilučių
+          1
+        1   1
+      1   2   1
+    1   3   3   1
+  1   4   6   4   1
+1   5   10   10   5   1
+...
+*/
