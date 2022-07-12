@@ -157,7 +157,7 @@ $height = 4;
 /*
 14. Išspausdinkite skaičių nuo 1 iki x daliklius, mažesnius už patį skaičių.
 
-1: 1
+1:
 2: 1
 3: 1
 4: 1 2
@@ -173,7 +173,7 @@ $height = 4;
  */
 
 /*
-15. Išspausdinkite šią struktūrą. Kiiekvienas skaičius yra dviejų virš jo esančių skaičių suma. Rašykite tokį kodą,
+15. Išspausdinkite šią struktūrą. Kiekvienas skaičius yra dviejų virš jo esančių skaičių suma. Rašykite tokį kodą,
 kuris leistų nesunkiai spausdinti daugiau eilučių
           1
         1   1
