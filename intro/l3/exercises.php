@@ -71,7 +71,7 @@ bool(true)
 ----------
 ...
 
-Atkreipkite dėmesį į ką pavirsta skaičius 0
+Atkreipkite dėmesį, į ką pavirsta skaičius 0
 */
 
 /*
@@ -108,12 +108,14 @@ Jeigu skaičius dalijasi iš 3, išspausdinkite žodį 'Hey'.
 Jeigu skaičius dalijasi iš 5, išspausdinkite žodį Ho'.
 Jeigu skaičius dalijasi ir iš 5, ir iš 3, išspausdinkite žodį 'HeyHo'.
 Kitu atveju išspausdinkite skaičių.
-Viskas turi būti atspausdinti vienoje eilutėje su tarpais:
+Viskas turi būti atspausdinta vienoje eilutėje su tarpais:
 1 2 Hey 4 Ho Hey 7 8 Hey Ho 11 Hey 13 14 HeyHo 16 17 Hey 19 Ho
 */
 
 /*
-11. Pasinaudodami ciklais, išspausdinkite lentelę, kurioje nelyginiai skaičiai yra žvaigždutės:
+11. Pasinaudodami ciklais, išspausdinkite lentelę, kurioje nelyginiai skaičiai yra žvaigždutės.
+Parašykite kodą taip, kad jis su menkais pakeitimais veiktų ir tuo atveju, jeigu reiktų spausdinti
+ne iki 20, bet iki kito dviženklio skaičiaus (pvz. 90).
 
 * |2 |* |4 |*
 6 |* |8 |* |10
@@ -123,7 +125,7 @@ Viskas turi būti atspausdinti vienoje eilutėje su tarpais:
 
 /*
 
-12. Pasinaudodami ciklais, išspausdinkite į terminalą šią figūrą:
+12. Pasinaudodami ciklais, išspausdinkite į terminalą šią figūrą.
 *
 **
 ***
@@ -151,3 +153,21 @@ $height = 4;
 *  *  *  *  *
 *  *  *  *  *
 */
+
+/*
+14. Išspausdinkite skaičių nuo 1 iki x daliklius, mažesnius už patį skaičių.
+
+1: 1
+2: 1
+3: 1
+4: 1 2
+5: 1
+6: 1 2 3
+7: 1
+8: 1 2 4
+9: 1 3
+10: 1 2 5
+11: 1
+12: 1 2 3 4 6
+...
+ */
