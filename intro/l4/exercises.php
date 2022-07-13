@@ -30,9 +30,9 @@ Funkcija grąžina: '**some text**'
 */
 
 /*
-4. Parašykite funkciją 'stringModifier', kuri pamodifikuotų paduotą string tipo kintamąjį. 
+4. Parašykite funkciją 'stringModifier', kuri pamodifikuotų paduotą string tipo kintamąjį.
 
-Funkcijos kvietimas: 
+Funkcijos kvietimas:
 $x = 'some text';
 stringModifier($x, '##');
 echo $x; // '##some text##'
@@ -42,14 +42,14 @@ Funkcija grąžina: funkcija nieko negrąžina
 */
 
 /*
-4. Parašykite funkciją 'textReplicator', kuri grąžintų 'padaugintą' tekstą. 
+4. Parašykite funkciją 'textReplicator', kuri grąžintų 'padaugintą' tekstą.
 
-Funkcijos kvietimas: 
+Funkcijos kvietimas:
 textReplicator('some_text', 3);
 
 Funkcija grąžina: 'some_text-some_text-some_text'
 
-Funkcijos kvietimas: 
+Funkcijos kvietimas:
 textReplicator('some_text', null);
 
 Funkcija grąžina: 'some_text'
@@ -57,4 +57,14 @@ Funkcija grąžina: 'some_text'
 
 /*
 4. Paverskite funkciją 'textReplicator', į veikiančią anoniminę funkciją.
+*/
+
+/*
+5. Parašykite funkciją, kuri spausdintų šią struktūrą. Funkcijai turi būti paduodama skaičius, kuris nurodys
+kiek lygių turi būti spausdinama. Pavyzdžio atveju, tas skaičius yra 5.
+    1
+   222
+  33333
+ 4444444
+555555555
 */
