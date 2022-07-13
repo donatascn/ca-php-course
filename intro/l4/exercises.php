@@ -68,3 +68,26 @@ kiek lygių turi būti spausdinama. Pavyzdžio atveju, tas skaičius yra 5.
  4444444
 555555555
 */
+
+/*
+8. Parašykite funkciją, kuri leistų vartotojui spėti, kokį random skaičių sugeneravo scriptas. Atspėjus, outputas turi
+informuoti, kiek spėjimų buvo padaryta.
+Input'ui iš vartotojo gauti naudokite funkciją 'readline' - https://www.php.net/manual/en/function.readline.php
+Atsitiktiniam skaičiui generuoti naudokite funkciją 'rand' - https://www.php.net/manual/en/function.rand.php
+
+Kvietimo pavyzdys:
+php -f exercises.php
+
+Įveskite galimų skaičių intervalo galq: 10
+Spėkite skaičių: 5
+Aukščiau!
+
+Spėkite skaičių: 9
+Žemiau!
+
+Spėkite skaičių: 8
+Teisingai! Panaudota spėjimų - 2
+*/
+
+
+
