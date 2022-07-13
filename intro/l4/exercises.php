@@ -42,7 +42,7 @@ Funkcija grąžina: funkcija nieko negrąžina
 */
 
 /*
-4. Parašykite funkciją 'textReplicator', kuri grąžintų 'padaugintą' tekstą.
+5. Parašykite funkciją 'textReplicator', kuri grąžintų 'padaugintą' tekstą.
 
 Funkcijos kvietimas:
 textReplicator('some_text', 3);
@@ -56,11 +56,11 @@ Funkcija grąžina: 'some_text'
 */
 
 /*
-5. Paverskite funkciją 'textReplicator', į veikiančią anoniminę funkciją.
+6. Paverskite funkciją 'textReplicator', į veikiančią anoniminę funkciją.
 */
 
 /*
-6. Parašykite funkciją, kuri spausdintų šią struktūrą. Funkcijai turi būti paduodama skaičius, kuris nurodys
+7. Parašykite funkciją, kuri spausdintų šią struktūrą. Funkcijai turi būti paduodama skaičius, kuris nurodys
 kiek lygių turi būti spausdinama. Pavyzdžio atveju, tas skaičius yra 5.
     1
    222
