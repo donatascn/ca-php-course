@@ -56,11 +56,11 @@ Funkcija grąžina: 'some_text'
 */
 
 /*
-4. Paverskite funkciją 'textReplicator', į veikiančią anoniminę funkciją.
+5. Paverskite funkciją 'textReplicator', į veikiančią anoniminę funkciją.
 */
 
 /*
-5. Parašykite funkciją, kuri spausdintų šią struktūrą. Funkcijai turi būti paduodama skaičius, kuris nurodys
+6. Parašykite funkciją, kuri spausdintų šią struktūrą. Funkcijai turi būti paduodama skaičius, kuris nurodys
 kiek lygių turi būti spausdinama. Pavyzdžio atveju, tas skaičius yra 5.
     1
    222
