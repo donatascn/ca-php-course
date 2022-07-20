@@ -9,7 +9,7 @@ function exercise1(): int
     */
 
     $numbers = [0, 1, 2, 3, 4];
-    
+
     return 0;
 }
 
@@ -29,7 +29,7 @@ function exercise3(): int
     /*
     Pasinaudodami masyvo operatoriumi paimkite elementą, kurio reikšmė yra 99 ir grąžinkite tą reikšmę iš funkcijos.
     */
-    
+
     $numbers = [
         [0, 1],
         [1, 0, 2],
@@ -40,7 +40,7 @@ function exercise3(): int
             ],
         ],
     ];
-    
+
     return 0;
 }
 
@@ -60,7 +60,7 @@ function exercise4(): int
             ],
         ],
     ];
-    
+
     return 0;
 }
 
@@ -101,7 +101,7 @@ function exercise6(): int
             ],
         ],
     ];
-    
+
     return 0;
 }
 
@@ -113,7 +113,7 @@ function exercise7(): array
     */
 
     $numbers = ['zero' => 0, 'one' => 1, 'two' => 2, 'three' => 3, 'four' => 4];
-   
+
     return [];
 }
 
@@ -121,7 +121,7 @@ function exercise8(): array
 {
     /*
     Sunaikinkitę visas reikšmes, kurios dalijasi 2 ir grąžinkite masyvą
-    Turėtumėte gauti masyvą: ['one' => 1, 'three' => 3, 'four' => 4, 'five' => 5]
+    Turėtumėte gauti masyvą: ['one' => 1, 'three' => 3, 'five' => 5]
     */
 
     $numbers = ['ninety' => 90, 'one' => 1, 'two' => 2, 'three' => 3, 'four' => 4, 'five' => 5];
@@ -133,9 +133,9 @@ function exercise9(int $start, int $end): void
 {
     /*
     Išspausdinkite skaičius nuo $start iki $end pasinaudodami ciklu.
-    Jeigu $start yra mažiau nei $end, funkcija nieko nespausdina.
+    Jeigu $start yra daugiau nei $end, funkcija nieko nespausdina.
     */
-    
+
 }
 
 function exercise10(int $number): void
