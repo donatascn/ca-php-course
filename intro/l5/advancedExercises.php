@@ -22,7 +22,7 @@ function exercise1(): array
 
 function exercise2(int $id)
 {
-    $prefix = 'product';
+    $prefix = 'product_';
 
     $products = [
         'product_1' => 'desk',
