@@ -195,8 +195,7 @@ Masyvą gausite iškvietę funkciją 'getNumbers'
 13. Raskite ir grąžinkite lyginių masyvo narių sumą
 14. Raskite ir grąžinkite teigiamų masyvo narių sumą
 15. Raskite ir grąžinkite sandaugą tų masyvo narių, kurie dalijasi iš 5
-16. Raskite ir grąžinkite masyvo narių vidurkį. Neigiamus skaičius paverskite į teigiamus
-17. Į masyvą pridėkite naują narį - skaičiu 255 - ir išspausdinkite masyva pasinaudodami funkcija 'printr'
+16. Į masyvą pridėkite naujų narių - skaičius nuo 255 iki 299 - ir išspausdinkite masyvą pasinaudodami funkcija 'printr'
 */
 
 
