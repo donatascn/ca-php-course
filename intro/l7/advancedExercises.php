@@ -7,11 +7,11 @@ function exercise1(string $stringToSplit, array $delimiters): array
     /*
     Funkcija turi priimti string'ą, kuris bus skaidomas,
     bei masyvą segmentų, pagal kuriuos bus skaidoma.
-    
+
     Kvietimas turi atrodyti taip:
     exercise1('Hello_how_are-you doing?', [' ', '-', '_'])
 
-    Funkcijos outputas turėtų atrodyti taip:
+    Funkcija turėtų grąžinti:
     ['Hello', 'how', 'are', 'you', 'doing?']
     */
 
@@ -24,7 +24,7 @@ function exercise2(array $words): array
     Sukategorizuokite žodžius pagal jų pradžios simbolį.
     Funkcija kviečiama:
     exercise2(['hello', 'Hickup', '123', 'computer'])
-    Funkcijos outputas:
+    Funkcija turėtų grąžinti:
     [
         'h' => ['hello', 'Hickup'],
         '1' => ['123'],
@@ -41,7 +41,7 @@ function exercise3(array $words): array
     Išveskite žodžių statistiką.
     Funkcija kviečiama:
     exercise2(['hello', 'you'])
-    Funkcijos outputas:
+    Funkcija turėtų grąžinti:
     [
         'hello' => [
             'vowels' => 2,
@@ -56,7 +56,7 @@ function exercise3(array $words): array
             'length' => 3,
             'starts_with' => y,
             'ends_with' => u,
-        ] 
+        ]
     ]
     */
 
@@ -66,7 +66,7 @@ function exercise3(array $words): array
 function exercise4(): array
 {
     /*
-    Grąžinkite masyvą, kuris savyje turėtų tik tuos žodžius, kurie arba prasideda, arba baigiasi 
+    Grąžinkite masyvą, kuris savyje turėtų tik tuos žodžius, kurie arba prasideda, arba baigiasi
     simboliais a, s, b, o
     */
     $emails = [
