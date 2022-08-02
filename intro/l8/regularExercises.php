@@ -11,7 +11,7 @@ function exercise1(): void
 }
 
 /*
-2. Išspausdinkite datą '2008-12-15 15:15' pasinaudodami funkcija 'date'
+2. Išspausdinkite datą '2008-12-15 15:15' pasinaudodami new DateTime
 */
 function exercise2(): void
 {
