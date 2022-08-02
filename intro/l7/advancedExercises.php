@@ -12,7 +12,14 @@ function exercise1(string $stringToSplit, array $delimiters): array
     exercise1('Hello_how_are-you doing?', [' ', '-', '_'])
 
     Funkcija turėtų grąžinti:
-    ['Hello', 'how', 'are', 'you', 'doing?']
+    Array
+    (
+        [0] => Hello
+        [1] => how
+        [2] => are
+        [3] => you
+        [4] => doing?
+    )
     */
 
     return [];
