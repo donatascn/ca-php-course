@@ -20,14 +20,15 @@ Log'o įrašo formatas: 2020-01-01 15:15:15 product "15" is not in the inventory
 
 
 Užduočiai įgyvendinti panaudokite exception'us.
-Klasė, tikrinanti inventorių, turi mesti exception'us, o ją kviečiantis kodas - gaudyti.
+Klasė, tikrinanti inventorių, turi mesti exception'us, o ją kviečiantis kodas - gaudyti. Naudokite savo custom
+exception'o klasę (pvz.: InventoryException).
 
 
 Programos kvietimo pavyzdys:
-php -f exercise1.php "1:3,2:2,5:1"
+php -f 2_inventory_checker.php "1:3,2:2,5:1"
 product "5" only has 0 items in the inventory
 
-php -f exercise1.php "1:3,2:2"
+php -f 2_inventory_checker.php "1:3,2:2"
 all products have the requested quantity in stock
 
 */
@@ -44,8 +45,10 @@ Invalid input "3,2:2,5:1". Format: id:quantity,id:quantity
 
 Klaidingo inputo atveju į log'ą rašyti pranešimo nereikia.
 Svarbu: Abi klasės (inventoriy checkeris ir input validatorius) turi būti kviečiami tame pačiame "try" bloke.
+Naudokite savo custom exception'o klasę (pvz.: InputValidationException).
+
 
 Programos kvietimo pavyzdys:
-php -f exercise1.php "3,2:2,5:1"
+php -f 2_inventory_checker.php "3,2:2,5:1"
 Invalid input "3,2:2,5:1". Format: id:quantity,id:quantity
 */
