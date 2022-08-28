@@ -31,9 +31,10 @@ function exercise2(int $id)
     ];
 
     /*
-    Sunaikinkitę visas masyve esančias reikšmes, kurių raktai yra $prefix + $id. Grąžinkite pamodifikuotą masyvą.
-    Jeigu tokio rakto nėra, gražinkite null.
-    Pridėkite trūkstamą return tipą.
+    Sunaikinkitę visas $products masyve esančias reikšmes, kurių raktai yra prefikso ir ID junginys t.y. ($prefix . $id)
+    Grąžinkite pamodifikuotą masyvą.
+    Jeigu tokio rakto ($id) nėra, gražinkite null.
+    Funkcijai pridėkite trūkstamą return tipą.
     Funkcijos kvietimas: exercise2(1)
     */
 
@@ -114,11 +115,11 @@ function exercise5(): array
     return [];
 }
 
-function exercise6(): int
+function exercise6(): float
 {
     $products = getProducts();
     /*
-    Raskite ir grąžinkite visų produktų kainų vidurkį
+    Raskite ir grąžinkite visų produktų kainų vidurkį.
     */
 
     return 0;
@@ -128,7 +129,8 @@ function exercise7(): array
 {
     $products = getProducts();
     /*
-    Sudėkite visų produktų pavadinimus į masyvą ir jį grąžinkite
+    Sudėkite visų $products masyve esančių produktų pavadinimus į masyvą ir jį grąžinkite
+    Iš funkcijos turėtų grįžti:
     [
         'Best chair',
         'Ultimate lamp',
@@ -143,7 +145,8 @@ function exercise8(): void
 {
     $products = getProducts();
     /*
-    Iteruodami per masyvą išspausdinkite eilutę, kurioje matytusi produkto pavadinimas ir tipas atskirti brūkšneliu:
+    Iteruodami per masyvą $products išspausdinkite eilutę, kurioje matytusi produkto pavadinimas ir tipas atskirti brūkšneliu:
+    Funkcija turėtų išspausdinti:
     Best chair - furniture, Ultimate lamp - lighting, Soft sofa - furniture
     */
 

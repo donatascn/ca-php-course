@@ -38,6 +38,7 @@ $hierarchyBuilder->printHierarchy();
 
 $hierarchyBuilder->addNode('this is fifth level', 4, 0); // parent node does not exist
 
+Rezultatas:
 * this is root (zero)
     |_ this is first level
     |_ this is first level again

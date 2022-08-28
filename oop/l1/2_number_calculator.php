@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 /*
 
-Sukurkite klasę NumberCalculator, kuri leistų atlikti įvairius skaičiavimo veiksmus. Ši klasė neturės konstruktoriaus. 
+Sukurkite klasę NumberCalculator, kuri leistų atlikti įvairius skaičiavimo veiksmus. Ši klasė neturės konstruktoriaus.
 Metodai:
 - addNumber - metodas priims "int" tipo argumentą, return tipas bus "void"
 - calculateSum - metodas grąžins "int" tipo reikšmę, argumentų neturės
 - calculateProduct - product liet. sandauga. Metodas grąžins "int" tipo reikšmę, argumentų neturės
 - calculateAverage - suapvalinkite iki sveiko skaičiaus, į viršų. Metodas grąžins "int" tipo reikšmę, argumentų neturės
 
-Nepamirškite sudėti argumentų bei return tipų.
+Nepamirškite sudėti tipų argumentams bei return'ams.
 
 Kodo kvietimo pavyzdys:
 

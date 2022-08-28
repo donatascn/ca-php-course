@@ -35,32 +35,30 @@ function exercise3(): void
 
 }
 
-
-/*
-4. Sukurkite datos objektą iš šių tekstinių datų:
-- 2000-03-02 15:30:00
-- 2000/02/15 08:30:00 PM
-- 2000 March 2nd 15:30:00
-*/
 function exercise4(): void
 {
-
+    /*
+    4. Sukurkite datos objektą iš šių tekstinių datų:
+    - 2000-03-02 15:30:00
+    - 2000/02/15 08:30:00 PM
+    - 2000 March 2nd 15:30:00
+    */
 }
-
-/*
-5. Sukurkite datą iš '15th Jan 2021 8:15:01 PM' (data X). Pamodifikuokite ją, kad gautumėte:
-- datą po 2 savaičių nuo datos X
-- datą po 10 metų nuo datos X
-- datą prieš 5 valandas nuo datos X
-- paskutinę mėnesio dieną
-- pirmą mėnesio dieną
-- ateinantį antradienį
-- datą prieš 1 dieną 8 valandas 15 minučių nuo datos X
-*/
 
 function exercise5(): void
 {
-
+    $dateString = '15th Jan 2021 8:15:01 PM';
+    /*
+    Sukurkite datos objektą iš $dateString. Pamodifikuokite objektą, kad gautumėte:
+    - datą po 2 savaičių nuo pradinės datos
+    - datą po 10 metų nuo pradinės datos
+    - datą prieš 5 valandas nuo pradinės datos
+    - paskutinę mėnesio dieną
+    - pirmą mėnesio dieną
+    - ateinantį antradienį
+    - datą prieš 1 dieną 8 valandas 15 minučių nuo pradinės datos
+    Kiekvienam užduoties punktui kurkitės naują datos objektą.
+    */
 }
 
 function exercise6(): void
@@ -121,7 +119,7 @@ function exercise8(string $date): void
     */
 }
 
-function exercise9($date): void
+function exercise9(string $date): void
 {
     /*
     Išspausdinkite datų skirtumą žodžiais.

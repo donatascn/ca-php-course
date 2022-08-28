@@ -6,13 +6,11 @@ class BankAccount
 {
     protected int $balance;
 
-    public function __construct(int $balance)
+    public function __construct(int $balance = 0)
     {
         if ($balance < 0) {
             $this->balance = 0;
-            echo 'Balance cannot be less than 0';
-
-            return;
+            die('Balance cannot be less than 0');
         }
         $this->balance = $balance;
     }
@@ -25,15 +23,11 @@ class BankAccount
     public function spend(int $amount): void
     {
         if ($amount > $this->balance) {
-            echo 'Cannot spend more than you have';
-
-            return;
+            die('Cannot spend more than you have');
         }
 
         if ($amount <= 0) {
-            echo 'Can only spend a positive amount';
-
-            return;
+            die('Can only spend a positive amount');
         }
 
         $this->balance = $this->balance - $amount;
@@ -54,6 +48,10 @@ class BankAccount
     }
 }
 
+$account = new BankAccount(1000);
+$account->deposit(1000);
+echo $account->getBalance();
+
 /*
 Sukurkite išvestines klases, kurios paveldėtų klasę BankAccount:
 - klasė StudentAccount - Ši klasė turi netaikyti jokių mokesčių depozitams.
@@ -64,13 +62,15 @@ Sukurkite išvestines klases, kurios paveldėtų klasę BankAccount:
 T.y. balansas gali buti neigiamas. $maxCreditAmount yra teigiama integer tipo reikšmė.
 Jeigu $maxCreditAmount yra 100, tai reiškia, kad balansas negali kristi žemiau -100.
 Ši suma ($maxCreditAmount) turi būti paduodama per konstruktorių.
-Dėmesio - šiai užduočiai reiktų pakeisti BankAccount::balance savybės matomumą į protected -
-tuomet galėsite naudoti šią savybę išvestinėse klasėse.
+Pavyzdys:
+$account = new CreditAccount(1000, 100);
 
-- klasė SavingsAccount. Ši klasė turi suteikti galimybę padidinti sąskaitos depozitą tam tikru procentu.
-T.y. - ji gali turėti public metodą addInterest, kurį iškvietus su X procentu, depozitas padidėtų X procentų
+- klasė SavingsAccount. Ši klasė turi suteikti galimybę padidinti sąskaitos balansą tam tikru procentu.
+T.y. - ji gali turėti public metodą 'addInterest', kurį iškvietus su X procentu (pvz.: 0.05), balansas padidėtų tuo procentu
 Įsivaizduokite, kad šis metodas būtų kviečiamas kas metus ir sąskaita tokiu būdu augtų.
-Dėmesio - šiai užduočiai reiktų pakeisti BankAccount::balance savybės matomumą į protected -
-tuomet galėsite naudoti šią savybę išvestinėse klasėse.
+Prie balanso pridedamas palūkanas verskite į int tipą.
+Pavyzdys:
+$account = new SavingsAccount(1000);
+$account->addInterest(0.05);
 
 */

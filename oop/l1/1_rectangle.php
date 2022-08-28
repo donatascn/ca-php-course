@@ -12,6 +12,6 @@ Metodai:
 - calculatePerimeter()
 - calculateDiagonal()
 
-Metodai turi grąžinti iki 2 skaitmenų po kablelio į viršų suapvalintą float tipo reikšmę. Pridėkite return tipą metodams.
+Metodai turi grąžinti suapvalintą (į viršų) int tipo reikšmę. Pridėkite return tipą metodams.
 
 */
