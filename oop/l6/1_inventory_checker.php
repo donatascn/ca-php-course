@@ -8,7 +8,7 @@ Išskaidykite praeitos temos "inventory checker" užduotį (https://github.com/d
 į atskirus failus pagal skaidrėse nurodytą failų struktūrą.
 
 Programa turėtų būti paleidžiama iš root katalogo:
-php -f exercise1.php "1:3,2:2,5:1"
+php -f 2_inventory_checker.php "1:3,2:2,5:1"
 
 Klasės turėtų gulėt "src" kataloge:
 Exception'ai turi gulėti "src/Exception" kataloge.
