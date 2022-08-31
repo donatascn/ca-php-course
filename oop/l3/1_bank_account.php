@@ -59,6 +59,7 @@ Sukurkite išvestines klases, kurios paveldėtų klasę BankAccount:
 - klasė ChildAccount - Ši klasė neturi leisti per vieną kartą išleisti daugiau nei 10eur.
 
 - klasė CreditAccount - Ši klasė turi leisti balansui nukristi iki -X sumos ($maxCreditAmount).
+
 T.y. balansas gali buti neigiamas. $maxCreditAmount yra teigiama integer tipo reikšmė.
 Jeigu $maxCreditAmount yra 100, tai reiškia, kad balansas negali kristi žemiau -100.
 Ši suma ($maxCreditAmount) turi būti paduodama per konstruktorių.
@@ -73,4 +74,9 @@ Pavyzdys:
 $account = new SavingsAccount(1000);
 $account->addInterest(0.05);
 
+- BudgetingAccount. Šis sąskaitos tipas turi leisti nustatyti sumą, kuri keliaus į atskirą biudzetą nuo kiekvieno depozito.
+Pvz.: klientas taupo automobiliui. Klientas nusprendžia, kad 10% nuo kiekvieno depozito keliaus i automobilio pirkimo
+biudžetą. (procentas paduodamas per konstruktorių).
+
+Pridėkite metodą getBudget(), kuris parodytų, kiek šiuo metu yra sukaupta taupymo biudzetui.
 */
