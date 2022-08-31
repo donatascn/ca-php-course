@@ -77,6 +77,7 @@ $account->addInterest(0.05);
 - BudgetingAccount. Šis sąskaitos tipas turi leisti nustatyti sumą, kuri keliaus į atskirą biudzetą nuo kiekvieno depozito.
 Pvz.: klientas taupo automobiliui. Klientas nusprendžia, kad 10% nuo kiekvieno depozito keliaus i automobilio pirkimo
 biudžetą. (procentas paduodamas per konstruktorių).
+Įprastiniai banko depozito mokesčiai nėra taikomi tai daliai, kuri keliauja į taupymo biudžetą.
 
 Pridėkite metodą getBudget(), kuris parodytų, kiek šiuo metu yra sukaupta taupymo biudzetui.
 */
