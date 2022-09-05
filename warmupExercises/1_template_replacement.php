@@ -5,7 +5,8 @@ declare(strict_types=1);
 /*
 1. Pakeiskite šablone tarp dvigubų riestinių skliaustų esančius kintamuosius į $replacements masyve esančius duomenis
 ir išspausdinkite gautą tekstą.
-Jeigu kažkuris šablone esantis kintamasis lieka nepakeistas, išspausdinkite klaidos pranešimą: 'Missing replacement variables'.
+Jeigu kažkuris šablone esantis kintamasis lieka nepakeistas, išspausdinkite klaidos pranešimą:
+'Missing replacement variables: ' + template.
 Nebūtina naudoti objektinį programamvimą.
 
 Kodo kvietimo pavyzdys:
@@ -31,7 +32,15 @@ $replacements = [
 
 function replaceTemplate(string $template, array $variables): void
 {
-    echo '';
+    foreach ($variables as $name => $value) {
+        // search: {{animal}} replacement: fox subject: $template
+        $template = str_replace('{{' . $name . '}}', $value, $template);
+    }
+    if (str_contains($template, '{{')) {
+        echo 'Missing replacement variables: ' . $template;
+        return;
+    }
+    echo $template;
 }
 
 replaceTemplate($template, $replacements);
