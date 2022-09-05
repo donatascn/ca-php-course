@@ -13,7 +13,7 @@ replaceTemplate($replacements, $template);
 Quick fox jumps over the lazy dog
 */
 
-$template = 'Quick {{animal}} jumps over the {{obstacle_type}} {{obstacle}} {{tesntrestnirsti}}';
+$template = 'Quick {{animal}} jumps over the {{obstacle_type}} {{obstacle}}';
 $replacements = [
     'animal' => 'fox',
     'obstacle' => 'dog',
