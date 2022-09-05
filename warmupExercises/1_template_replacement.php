@@ -7,19 +7,19 @@ declare(strict_types=1);
 ir išspausdinkite gautą tekstą.
 Jeigu kažkuris šablone esantis kintamasis lieka nepakeistas, išspausdinkite klaidos pranešimą:
 'Missing replacement variables: ' + template.
-Nebūtina naudoti objektinį programamvimą.
+Objektinio programamvimo naudoti nebūtina.
 
 Kodo kvietimo pavyzdys:
-replaceTemplate($replacements, $template);
-Quick fox jumps over the lazy dog
+replaceTemplate($template, $replacements);
+A fox, which is a quick animal, jumps over the lazy dog
 
 
-replaceTemplate([], 'My name is {{name}}');
-Missing replacement variables
+replaceTemplate('My name is {{name}}', []);
+Missing replacement variables: My name is {{name}}
 
 2. Patobulinkite kodą, kad klaida grąžintų, kurių kintamųjų būtent trūksta
 
-replaceTemplate([], 'My name is {{name}}. I am from {{from}}');
+replaceTemplate('My name is {{name}}. I am from {{from}}', []);
 Missing replacement variables: name, from
 */
 
@@ -32,15 +32,7 @@ $replacements = [
 
 function replaceTemplate(string $template, array $variables): void
 {
-    foreach ($variables as $name => $value) {
-        // search: {{animal}} replacement: fox subject: $template
-        $template = str_replace('{{' . $name . '}}', $value, $template);
-    }
-    if (str_contains($template, '{{')) {
-        echo 'Missing replacement variables: ' . $template;
-        return;
-    }
-    echo $template;
+    echo '';
 }
 
 replaceTemplate($template, $replacements);
