@@ -11,9 +11,18 @@ Nebūtina naudoti objektinį programamvimą.
 Kodo kvietimo pavyzdys:
 replaceTemplate($replacements, $template);
 Quick fox jumps over the lazy dog
+
+
+replaceTemplate([], 'My name is {{name}}');
+Missing replacement variables
+
+2. Patobulinkite kodą, kad klaida grąžintų, kurių kintamųjų būtent trūksta
+
+replaceTemplate([], 'My name is {{name}}. I am from {{from}}');
+Missing replacement variables: name, from
 */
 
-$template = 'Quick {{animal}} jumps over the {{obstacle_type}} {{obstacle}}';
+$template = 'A {{animal}}, which is a quick animal, jumps over the {{obstacle_type}} {{obstacle}}';
 $replacements = [
     'animal' => 'fox',
     'obstacle' => 'dog',
@@ -26,3 +35,4 @@ function replaceTemplate(string $template, array $variables): void
 }
 
 replaceTemplate($template, $replacements);
+
