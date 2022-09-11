@@ -9,7 +9,6 @@ Pvz.: php -f 2_inventory_checker.php "1:3,2:2,4:1" - reiškia, kad mes norime pa
 - produktas, kurio id yra 1, o kiekis 3
 - produktas, kurio id yra 2, o kiekis 2
 - produktas, kurio id yra 4, o kiekis 1
-
 Jeigu paduotas produkto id neegzistuoja, arba nepakanka kiekio, į terminalą išspausdinkite pranešimą:
 - product "15" is not in the inventory
 - product "5" only has 0 items in the inventory
@@ -18,19 +17,17 @@ Pakaks spausdinti tik vieną klaidą apie inventoriaus neatitikimus, net jeigu t
 Šalia klaidos pranešimo spausdinimo taip pat, įrašykite pranešimą apie šį įvykį į log'ą (log.txt)
 Log'o įrašo formatas: 2020-01-01 15:15:15 product "15" is not in the inventory
 
-
 Užduočiai įgyvendinti panaudokite exception'us.
 Klasė, tikrinanti inventorių, turi mesti exception'us, o ją kviečiantis kodas - gaudyti. Naudokite savo custom
 exception'o klasę (pvz.: InventoryException).
 
-
 Programos kvietimo pavyzdys:
+
 php -f 2_inventory_checker.php "1:3,2:2,5:1"
 product "5" only has 0 items in the inventory
 
 php -f 2_inventory_checker.php "1:3,2:2"
 all products have the requested quantity in stock
-
 */
 
 /*

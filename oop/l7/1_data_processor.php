@@ -105,11 +105,11 @@ arba terminalą. Tai yra daroma kviečiant metodą 'process'.
 1.2 Perkelkite metodo 'process' encodinimo ir išvesties logiką į atskiras klases, kurios būtų susietos interfeisais.
 Galėtų būti šie interfeisai:
 - DataEncoderInterface
-    - JsonEncodder
-    - XmlEncodder
-- DataOutputHanderInterface
+    - JsonEncoder
+    - XmlEncoder
+- DataOutputHandlerInterface
     - TerminalOutputHander
-    - FileOutputHander
+    - FileOutputHandler
 
 Daugiau apie XML formatą: https://www.w3schools.com/xml/xml_whatis.asp
 */
